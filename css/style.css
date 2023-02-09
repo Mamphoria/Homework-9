@@ -57,6 +57,18 @@ li:hover{
     padding: 10px 27px 18px 31px;
 }
 
+.fa-bars{
+    display: none;
+    background-color: #F8F8F8;
+    font-size: 60px;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 312px;
+}
+
 /* <<< Section2 >>> */
 
 .section2{
