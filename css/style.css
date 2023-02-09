@@ -156,3 +156,18 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+footer i{
+    margin-left: 37px;
+    font-size: 60px;
+    color: #F8F8F8;
+}
+
+footer img{
+    margin-right: 762px;
+}
+
+footer i:hover{
+    cursor: pointer;
+    color: rgb(242, 242, 69);
+}
