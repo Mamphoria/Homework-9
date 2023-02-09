@@ -10,7 +10,6 @@
 /* <<< Section1 >>> */
 
 .section1{
-    
     width: 100%;
     height: 2414px;
     background-image: url("../images/background_photo.jpg");
@@ -130,7 +129,6 @@ article img{
 
 article p{
     background-color: #8E8B8B;
-    background width: 50%;
     height: 557px;
     padding: 85px 52px 85px 613px;
     font-family: 'Gentium Book Basic';
