@@ -1,9 +1,14 @@
+
+/* <<< Container >>> */
+
 .container{
     max-width: 1440px;
     width: 100%;
     border: 10px solid red;
     margin: 0 auto; 
 }
+
+/* <<< Section1 >>> */
 
 .section1{
     
@@ -14,7 +19,6 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    border: 10px solid rgb(119, 0, 255);
 }
 
 .section1_text{
@@ -27,6 +31,8 @@
     margin: 1563px 200px 304px 200px;
 
 }
+
+/* <<< Header >>> */
 
 header{
     width: 100%;
@@ -54,6 +60,8 @@ li:hover{
     border: 3px solid #FFFFFF;
     padding: 10px 27px 18px 31px;
 }
+
+/* <<< Section2 >>> */
 
 .section2{
     width: 100%;
@@ -89,4 +97,62 @@ li:hover{
 .card:hover{
     cursor: pointer;
     box-shadow: 0px 30px 10px -10px #0B0101;
+}
+
+/* <<< Article >>> */
+
+article{
+    width: 100%;
+    height: 857px;
+    background-color: #2C2929;
+    padding: 33px 145px 105px 140px;
+}
+
+.article_title{
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 106px;
+}
+
+.articale{
+    width: 80%;
+    height: 557px;
+}
+
+article img{
+    width: 50%;
+    height: 557px;
+    float: left;
+    margin-right: 3px;
+}
+
+article p{
+    background-color: #8E8B8B;
+    background width: 50%;
+    height: 557px;
+    padding: 85px 52px 85px 613px;
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+    color: #FFFFFF;
+    }
+
+/* <<< Footer >>> */
+
+footer{
+    width: 100%;
+    height: 319px;
+    background-color: #393838;
+    padding: 83px 144px 83px 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
