@@ -1,5 +1,114 @@
 @media(max-width: 480px){
+    
+    /* <<< Section1 >>> */
+    
+    .section1{
+        width: 100%;
+        height: 956px;
+    }
+
+    .section1_text{
+        font-size: 24px;
+        line-height: 28px;
+        margin: 647.76px 56px 91px 56px;
+        height: 152px;
+    }
+    
+    /* <<< Header >>> */
+
+    header{
+        padding: 9.44px 30px 0px 30px;
+    }
+
+    header img{
+        width: 49px;
+        height: 76px;
+    }
+
     header nav{
         display: none;
+    }
+
+    .fa-bars{
+        display: flex;
+        font-size: 40px;
+        line-height: 60px;
+        width: 56px;
+        height: 59px;
+        justify-content: center;
+    }
+
+    /* <<< Section2 >>> */
+
+    .section2{
+        height: 1823px;
+        padding: 37px 38px 180px 38px;
+        text-align: center;
+        display: flex;
+    }
+
+    .section2_title{
+        font-size: 40px;
+        margin-bottom: 56px;
+    }
+
+    .cards{
+        flex-direction: column;
+        height: 1504px;
+        margin-bottom: 128px;
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+    .card{
+        height: 416px;
+    }
+
+    /* <<< Article >>> */
+
+    article{
+        height: 1071px;
+        padding: 43px 38px 88px 38px;
+    }
+
+    .article_title{
+        font-size: 40px;
+        margin-bottom: 56px;
+    }
+
+    .articale{
+        height: 406px;
+    }
+
+    article img{
+        width: 100%;
+        height: 406px;
+        float: none;
+        margin-right: 0px;
+    }
+
+    article p{
+        height: 432px;
+        padding: 70px 44px 71px 44px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    /* <<< Footer >>> */
+
+    footer{
+        height: 145px;
+        padding: 55px 142px 55px 141px;
+        gap: 46px;
+    }
+
+    footer img{
+        display: none;
+    }
+
+    footer i{
+        margin-left: 0px;
+        font-size: 35px;
+        color: #F8F8F8;
     }
 }
