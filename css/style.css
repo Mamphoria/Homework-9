@@ -49,12 +49,15 @@ li{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
+    border: 3px solid transparent;
+    padding: 10px 27px 18px 31px;
+    transition: 2s linear;
 }
 
 li:hover{
     cursor: pointer;
     border: 3px solid #FFFFFF;
-    padding: 10px 27px 18px 31px;
+    
 }
 
 .fa-bars{
@@ -66,7 +69,6 @@ li:hover{
     height: 60px;
     text-align: center;
     border-radius: 50%;
-    margin-left: 312px;
 }
 
 /* <<< Section2 >>> */
@@ -74,11 +76,10 @@ li:hover{
 .section2{
     width: 100%;
     background-color: #393838;
-    height: 1067px;
-    padding: 90px 145px 142px 145px;
+    padding: 90px 0px 142px 0px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section2_title{
@@ -93,12 +94,11 @@ li:hover{
 .cards{
     width: 80%;
     display: flex;
-    justify-content: center;
-    gap: 68px; 
+    justify-content: space-between;
 }
 
 .card{
-    width: 100%;
+    width: 30%;
     height: 522px;
 }
 
@@ -107,13 +107,17 @@ li:hover{
     box-shadow: 0px 30px 10px -10px #0B0101;
 }
 
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
 /* <<< Article >>> */
 
 article{
     width: 100%;
-    height: 857px;
     background-color: #2C2929;
-    padding: 33px 145px 105px 140px;
+    padding: 33px 0px 105px 0px;
 }
 
 .article_title{
@@ -122,27 +126,27 @@ article{
     font-weight: 400;
     font-size: 64px;
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-bottom: 106px;
 }
 
-.articale{
+.article{
     width: 80%;
-    height: 557px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-article img{
+.article img{
     width: 50%;
     height: 557px;
-    float: left;
-    margin-right: 3px;
 }
 
-article p{
-    background-color: #8E8B8B;
+.article p{
+    width: 49%;
     height: 557px;
-    padding: 85px 52px 85px 613px;
+    background-color: #8E8B8B;
+    padding: 70px 52px;
     font-family: 'Gentium Book Basic';
     font-style: normal;
     font-weight: 400;
@@ -156,22 +160,21 @@ article p{
 
 footer{
     width: 100%;
-    height: 319px;
     background-color: #393838;
     padding: 83px 144px 83px 145px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-footer i{
-    margin-left: 37px;
-    font-size: 60px;
-    color: #F8F8F8;
+.footer_icons{
+    display: flex;
+    gap: 37px;
 }
 
-footer img{
-    margin-right: 762px;
+footer i{
+    font-size: 60px;
+    color: #F8F8F8;
 }
 
 footer i:hover{
